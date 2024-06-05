@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio Harpia Tech</title>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCY9MjXQCMQQaqRHKtT61-PvmtJlDWqqto&libraries=places&callback=initMap"
+      async
+      defer
+    ></script>
+
+    <script>
+      function initMap() {
+        // Initialize the map and markers when the API is fully loaded.
+      }
+    </script>
+    <script>
+      // Permitir acesso à função removeMarker a partir do infobox
+      function removeMarker(markerIndex) {
+        const app = document.querySelector("#app").__vue_app__;
+        app._component.setupState.removeMarker(markerIndex);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

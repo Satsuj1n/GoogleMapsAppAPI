@@ -1,0 +1,22 @@
+{
+  "name": "harpia-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@googlemaps/markerclusterer": "^2.5.3",
+    "axios": "^1.7.1",
+    "papaparse": "^5.4.1",
+    "vue": "^3.4.21",
+    "vue3-google-map": "^0.20.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.8"
+  }
+}
